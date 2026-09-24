@@ -1,0 +1,6 @@
+import Header from "@/components/Header";
+import Footer from "@/components/Footer";
+import ProductCard from "@/components/ProductCard";
+import SectionTitle from "@/components/SectionTitle";
+import {products} from "@/lib/products";
+export default function Shop(){return <><Header/><main className="container py-12"><SectionTitle eyebrow="SHOP" title="المتجر" description="تصفح جميع المنتجات الرقمية. لا نعرض الأسعار داخل المتجر."/><div className="mb-8 grid gap-3 sm:grid-cols-2 lg:grid-cols-4"><input placeholder="ابحث عن منتج..." className="rounded-2xl border border-white/10 bg-white/5 px-5 py-4 outline-none placeholder:text-slate-600"/><select className="rounded-2xl border border-white/10 bg-white/5 px-5 py-4"><option>كل الأقسام</option><option>الإلكترونيات</option><option>الإكسسوارات</option><option>الألعاب</option><option>الاشتراكات</option><option>الخدمات الرقمية</option></select></div><div className="grid gap-5 sm:grid-cols-2 lg:grid-cols-4">{products.map(p=><ProductCard key={p.id} product={p}/>)}</div></main><Footer/></>}
