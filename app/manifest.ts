@@ -1,0 +1,2 @@
+import type {MetadataRoute} from "next";
+export default function manifest():MetadataRoute.Manifest{return{name:"NURO STORE",short_name:"NURO",description:"متجر نيرو للمنتجات والخدمات الرقمية",start_url:"/",display:"standalone",background_color:"#050812",theme_color:"#1688ff",lang:"ar",dir:"rtl"}}
