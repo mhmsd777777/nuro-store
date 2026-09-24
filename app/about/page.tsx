@@ -1,0 +1,2 @@
+import Header from "@/components/Header";import Footer from "@/components/Footer";
+export default function About(){return <><Header/><main className="container py-16"><div className="max-w-3xl"><div className="text-sm font-bold text-blue-300">ABOUT NURO</div><h1 className="mt-3 text-4xl font-black">عن NURO STORE</h1><p className="mt-6 leading-9 text-slate-400">NURO STORE منصة رقمية موجهة للسوق السوداني، هدفها جمع المنتجات والخدمات الرقمية في تجربة عربية واضحة وسريعة، مع هوية بصرية كهربائية باللون الأزرق والأبيض.</p></div></main><Footer/></>}
