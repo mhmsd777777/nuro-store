@@ -1,0 +1,1 @@
+import Header from "@/components/Header";import Footer from "@/components/Footer";export default function Favorites(){return <><Header/><main className="container py-16"><div className="glass rounded-[2rem] p-10 text-center"><h1 className="text-3xl font-black">المفضلة</h1><p className="mt-3 text-slate-400">سيتم حفظ المنتجات المفضلة محلياً في المتصفح.</p></div></main><Footer/></>}
